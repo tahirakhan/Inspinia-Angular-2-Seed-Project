@@ -9,6 +9,8 @@ import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 import { AppComponent } from "./app.component";
 import { MainViewModule } from "./views/main-view/main-view.module";
 import { MinorViewModule } from "./views/minor-view/minor-view.module";
+import { MasterDataModule } from "./views/master-data/master-data.module";
+import { LoginModule } from "./views/login/login.module";
 import { NavigationModule } from "./views/common/navigation/navigation.module";
 import { FooterModule } from "./views/common/footer/footer.module";
 import { TopnavbarModule } from "./views/common/topnavbar/topnavbar.module";
@@ -24,7 +26,8 @@ import { AppRoutingModule } from "./app-routing.module";
     // Views
     MainViewModule,
     MinorViewModule,
-
+    MasterDataModule,
+    LoginModule,
     // Modules
     NavigationModule,
     FooterModule,
